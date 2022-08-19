@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    gap: 20px;
+    
+}
+
+
+
+h1{
+    margin-top: 4.2pc;
+}
+
+.btn
+{
+    margin-top: 5%;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    color: #efefef;
+ 
+}
+
+.header
+{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.user,.computer
+{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+
+.computer{
+    background-color: black;
+    border: 1px solid white;
+}
+.result
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 2%;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+#selections
+{
+    color: black;
+    font-size: 24px;
+}
+
+.counter
+{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.you
+{
+    flex: 1;
+    margin: 2% 0% 0% 2%;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.co{
+    margin: 2% 2% 0% 0%;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-score,.comp-counter
+{
+    border: 2px solid #efefef;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#scoreId,#compId
+{
+    color: aqua;
+}
+
+.rock-paper-scissor,.winner-details
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.rock-paper-scissor p, .winner-details p{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.image-selection
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+#user-choice,#comp-choice
+{
+    width: auto;
+    height: 200px;
+}
+
+button:disabled
+{
+    background-color: dimgrey;
+}
+
+.over
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+input
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: 18px;
+}

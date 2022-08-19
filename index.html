@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="rock.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="rock.js" defer>
+    </script>
 </head>
 <body>
-    
+  <div class="header">
+     <h2>Rock, Paper, Scissor Game!!</h2>
+     <h4 style="font-style:italic">First to 3 is the winner!!</h4>
+  </div>
+  <div class="counter">
+    <div class="user-score">
+        <h2 id="scoreId">0</h2>
+    </div>
+    <p class="you">You</p>
+    <p class="co">Computer</p>
+    <div class="comp-counter"> 
+        <p><h2 id="compId">0</h2></p> 
+    </div>
+  </div>
+  <div class="rock-paper-scissor">
+    <p>Rock, Paper or Scissors?</p>
+  </div>
+   <div id="container">
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissor">Scissor</button>
+   </div>
+  <div class="result">
+    <p id="selection"></p>
+    <p id="compSelection"></p>
+  </div>
+  <div class="image-selection">
+    <img src="" id="user-choice" alt="Player choice">
+    <img src="" id="comp-choice" alt="Computer choice">
+  </div>
+
+  <div class="winner-details">
+    <p id="winner">Match Yet to Start</p>
+  </div>
+  <div class="over">
+     <input type="button" value="Restart Game" onclick="restart()">
+  </div>
 </body>
 </html>

@@ -163,3 +163,9 @@ input
     background-color: aqua;
     font-size: 18px;
 }
+
+input:disabled{
+    background-color: dimgray;
+    color: white;
+    font-size: 18px;
+}

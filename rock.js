@@ -26,6 +26,7 @@ elements.forEach(btn=>{
             localStorage.removeItem('computerCount');
             localStorage.removeItem('tieCount');
             alert(`Mate Game is Over`);
+            document.getElementById('inpR').removeAttribute('disabled')
             document.getElementById('rock').setAttribute('disabled',true)
             document.getElementById('paper').setAttribute('disabled',true)
             document.getElementById('scissor').setAttribute('disabled',true)
